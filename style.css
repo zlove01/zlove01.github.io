@@ -1,0 +1,81 @@
+*
+{
+
+margin: 0
+padding: 0
+
+}
+
+header
+{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 5)),url("https://s.yimg.com/ny/api/res/1.2/MpBsUwQctcyILxk8173aeQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://s.yimg.com/uu/api/res/1.2/tCJWatwwZk6cq9dRkSIaFQ--~B/aD01NzY7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/sny_articles_235/47ae0973b808a80041466ebf477c1e10");
+height: 100vh;
+background-size: cover;
+background-position: center;
+
+}
+
+body {
+
+background-color: rgb(0, 0, 0);
+
+}
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+
+}
+
+.main-nav li
+{
+
+display: inline-block;
+margin-right: 5px;
+}
+
+.main-nav li a
+{
+color: white;
+text-decoration: underline;
+padding: 5px 10px;
+font-family: cursive;
+font-size: 20px;
+
+}
+
+.main-nav li.active a
+{
+border: 1px solid white;
+
+}
+
+.main-nav li a:hover
+{
+border: 3px solid white;
+}
+
+.title
+{
+position: relative;
+width: 1200px;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+color: red;
+
+
+}
+
+h1
+{
+text-transform: uppercase;
+font-size: 30px;
+font-style: oblique;
+text-align: left;
+margin-top: 10px;
+
+}

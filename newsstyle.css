@@ -1,0 +1,115 @@
+
+*
+{
+
+margin: 0
+padding: 0
+
+}
+
+header
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 5)),url("https://fanaticsview.com/wp-content/uploads/2016/06/derrick-rose-new-york-knicks-int.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+body {
+
+  background-color: rgb(0, 0, 0);
+
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.main-nav li
+{
+
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: underline;
+  padding: 5px 10px;
+  font-family: cursive;
+  font-size: 20px;
+
+}
+
+ .main-nav li.active a
+{
+border: 1px solid white;
+
+}
+
+.main-nav li a:hover
+{
+  border: 3px solid white;
+}
+
+.title
+{
+  position: relative;
+  width: 1200px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: red;
+
+
+}
+
+h1
+{
+text-transform: uppercase;
+font-size: 30px;
+font-style: oblique;
+text-align: left;
+margin-top: 10px;
+
+}
+
+.trade
+{
+  color: white;
+  padding: 5px 10px;
+  font-family: cursive;
+  font-size: 17px;
+  text-align: left;
+  margin-right: 600px;
+
+}
+
+.hallow
+{
+    color: white;
+    padding: 5px 10px;
+    font-family: cursive;
+    font-size: 17px;
+    text-align: left;
+    margin-right: 600px;
+
+}
+
+
+.fifty
+{
+  position: relative;
+  width: 1200px;
+  margin-left: 10px;
+  margin-top: 150px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  color: red;
